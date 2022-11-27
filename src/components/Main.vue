@@ -1,8 +1,8 @@
 <template>
   <div class="main">
     <div id="demo">
-      <div id="inner-demo">
-        <h1 id="inner-demo-2">
+      <div id="demo1">
+        <h1 id="demo2">
           <br />
         </h1>
       </div>
@@ -96,7 +96,7 @@ export default {
   height: 20vh;
   background: url("") white;
 }
-#inner-demo {
+#demo1 {
   width: 100%;
   height: 0%;
   display: flex;
@@ -105,14 +105,14 @@ export default {
   color: black;
   font-size: 1.5em;
 }
-#inner-demo-2 {
+#demo2 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-#inner-demo h1 {
+#demo1 h1 {
   position: relative;
   left: 1em;
   top: 0.75em;
