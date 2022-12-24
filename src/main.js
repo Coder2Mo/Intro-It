@@ -8,7 +8,7 @@ new Vue({
   render: (h) => h(App)
 }).$mount("#app");
 
-// Initialize MakeIt for a professional Intro Writter effect
+// Initialize IntroIt for a professional Intro Writter effect
 new MakeIt("#inner-demo-2", {
   speed: 100,
   lifelike: true,
