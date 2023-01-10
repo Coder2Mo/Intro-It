@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import MakeIt from "makeit";
+import MakeIt from "introit";
 
 Vue.config.productionTip = false;
 
