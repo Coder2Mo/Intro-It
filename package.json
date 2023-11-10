@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "typeit": "7.0.4",
-    "vue": "^2.5.22",
+    "vue": "^2.7.15",
     "vue-particlejs": "1.1.0"
   },
   "devDependencies": {

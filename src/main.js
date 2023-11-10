@@ -9,7 +9,7 @@ new Vue({
 }).$mount("#app");
 
 // Initialize IntroIt for a professional Intro Writter effect
-new MakeIt("#inner-demo-2", {
+new MakeIt("#demo2", {
   speed: 100,
   lifelike: true,
   cursor: true,
