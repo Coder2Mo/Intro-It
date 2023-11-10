@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Main/>
+    <Main />
   </div>
 </template>
 
@@ -10,8 +10,8 @@ import Main from "./components/Main";
 export default {
   name: "App",
   components: {
-    Main
-  }
+    Main,
+  },
 };
 </script>
 
