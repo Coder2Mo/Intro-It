@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import TypeIt from "typeit";
+import MakeIt from "makeit";
 
 Vue.config.productionTip = false;
 
@@ -8,8 +8,8 @@ new Vue({
   render: (h) => h(App)
 }).$mount("#app");
 
-// Initialize TypeIt for a professional typewriter effect
-new TypeIt("#inner-demo-2", {
+// Initialize MakeIt for a professional Intro Writter effect
+new MakeIt("#inner-demo-2", {
   speed: 100,
   lifelike: true,
   cursor: true,
