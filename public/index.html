@@ -1,17 +1,87 @@
+/*
+* Intro-It Project - Create a Particle Animation Background
+*
+* This code is part of the Intro-It project, which aims to create an engaging and interactive
+* introduction for your GitHub profile readme.md using a particle animation background.
+* It adds a dynamic and visually appealing background to your GitHub profile, making it more
+* attractive and memorable.
+*
+* Project Repository: https://github.com/Coder2Mo/Intro-It
+*
+* Author: Mohamed Salem
+* Email: Eng_freelance@outlook.com
+* Copyright (C) 2023 Mohamed Salem. All rights reserved.
+* Licensed under the MIT License.
+*/
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="icon.ico">
-    <title>Intro-It</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>Intro-It App won't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.ico">
+  <title>Intro-It</title>
+</head>
+
+<body>
+  <!-- Include Nodes.js library -->
+  <script type="text/javascript" src="js/nodes.js"></script>
+
+  <!-- Initialize and configure Nodes.js particle animation -->
+  <script type="text/javascript">
+    // Initialize Nodes.js with configuration options
+    const canvasId = 'nodes';
+
+    const handleResize = debounce(() => {
+      nodesjs.setWidth(window.innerWidth);
+      nodesjs.setHeight(window.innerHeight);
+    }, 200);
+
+    // Instantiate NodesJs after the DOM has loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      const nodesjs = new NodesJs({
+        id: canvasId,
+        width: window.innerWidth,
+        height: window.innerHeight,
+        particleSize: 2,
+        lineSize: 1,
+        particleColor: [255, 255, 255, 0.3],
+        lineColor: [255, 255, 255],
+        backgroundFrom: [10, 25, 100],
+        backgroundTo: [25, 50, 150],
+        backgroundDuration: 4000,
+        nobg: false,
+        number: matchMedia('(orientation: portrait)').matches ? 30 : 100,
+        speed: 20,
+      });
+
+      // Handle window resize to update canvas dimensions
+      window.addEventListener('resize', handleResize);
+    });
+
+    // Debounce function to limit resize event handling
+    function debounce(func, delay) {
+      let timeoutId;
+      return function (...args) {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+          func.apply(this, args);
+        }, delay);
+      };
+    }
+
+  </script>
+
+  <!-- Render the particle animation canvas -->
+  <div style="position: absolute; left: 0; top: 0; overflow: hidden; width: 100%; height: 100%;">
+    <canvas id="nodes"></canvas>
+  </div>
+
+  <!-- Your main application content goes here -->
+  <div id="app"></div>
+  <!-- built files will be auto-injected -->
+</body>
+
 </html>
