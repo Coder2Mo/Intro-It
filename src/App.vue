@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <Main />
+    <MainComponent />
   </div>
 </template>
 
 <script>
-import Main from "./components/Main";
+import MainComponent from "./components/MainComponent";
 
 export default {
   name: "App",
   components: {
-    Main,
+    MainComponent,
   },
 };
 </script>
 
 <style>
 #app {
-  font-family: "Consolas", fixed-width;
+  font-family: "Consolas", "fixed-width";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
