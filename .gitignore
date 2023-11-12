@@ -1,10 +1,6 @@
 # Ignore Node.js modules
 node_modules/
 
-# Ignore built files
-/dist/
-/dist/*
-
 # Ignore configuration files
 .env.local
 .env.development
