@@ -1,1 +1,63 @@
-node_modules
+# Ignore Node.js modules
+node_modules/
+
+# Ignore built files
+/dist/
+/dist/*
+
+# Ignore configuration files
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore logs and other runtime data
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+test-result.xml
+coverage
+.puppeteer
+.jest
+/.idea
+.eslintcache
+.DS_Store
+.cache/
+.vuepress/dist
+
+# Ignore Vue.js specific files
+/.vscode
+/nuxt
+/nuxt.js
+/nuxt.config.js
+!nuxt.config.js
+/package-lock.json
+/yarn.lock
+
+# Ignore generated files
+output
+output/
+*.exe
+
+# Ignore editor specific files
+.idea
+*.iml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+/System Volume Information/
+RECYCLER/
+RECYCLED/
+RECYCLE.BIN/
+RECYCLED/
+$RECYCLE.BIN/
+$RECYCLED/
+
+# Ignore custom ignore files
+.ignore
+IGNORE
