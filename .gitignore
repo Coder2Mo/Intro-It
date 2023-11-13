@@ -31,10 +31,6 @@ coverage
 /package-lock.json
 /yarn.lock
 
-# Ignore generated files
-output
-output/
-*.exe
 
 # Ignore editor specific files
 .idea

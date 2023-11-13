@@ -26,7 +26,7 @@
     "introit": "npm run build && npm run lint && npm run serve"
   },
   "dependencies": {
-    "typeit": "7.0.4",
+    "typeit": "^7.0.4",
     "vue": "^2.7.15",
     "vue-particlejs": "1.1.0"
   },
