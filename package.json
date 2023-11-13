@@ -23,12 +23,14 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "introit": "npm run build && npm run lint && npm run serve"
+    "introit": "npm run build && npm run lint && npm run serve",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "typeit": "^7.0.4",
     "vue": "^2.7.15",
-    "vue-particlejs": "1.1.0"
+    "vue-particlejs": "1.1.0",
+    "execa": "latest"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.8",
