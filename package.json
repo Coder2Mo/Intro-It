@@ -1,0 +1,69 @@
+{
+  "name": "intro-it",
+  "displayName": "Make-My-Intro",
+  "description": "Create an engaging and interactive GitHub profile readme introduction using Vue ParticleJs and Vue.js, Make your GitHub profile stand out with a dynamic and visually appealing background.",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Mohamed Salem",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "javascript",
+    "vue-projects",
+    "projects"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coder2Mo/Intro-It.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Coder2Mo/Intro-It/issues"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "introit": "npm run build && npm run lint && npm run serve",
+    "deploy": "node scripts/gh-pages-deploy.js"
+  },
+  "dependencies": {
+    "typeit": "^7.0.4",
+    "vue": "^2.7.15",
+    "vue-particlejs": "1.1.0",
+    "execa": "latest"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.5.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "icon": "./public/icon.ico"
+}
