@@ -1,8 +1,13 @@
+![Intro-It](https://socialify.git.ci/Coder2Mo/Intro-It/image?description=1&descriptionEditable=Intro-It%20is%20a%20sophisticated%20Vue.js%20web%20application%20designed%20to%20elevate%20your%20GitHub%20profile%20introduction.&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark)
+
 # Intro-It
 
 Intro-It is a sophisticated Vue.js web application designed to elevate your GitHub profile's
 introduction. It combines a mesmerizing particle animation background with a captivating
 professional intro writer effect, creating a memorable first impression.
+<br>
+<br>
+<div class="box"><img src="https://s5.gifyu.com/images/SRzKu.gif"alt="Example gif"></div>
 <br>
 <br>
 
