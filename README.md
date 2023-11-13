@@ -7,11 +7,10 @@ introduction. It combines a mesmerizing particle animation background with a cap
 professional intro writer effect, creating a memorable first impression.
 <br>
 <br>
-<div class="box"><img src="https://s5.gifyu.com/images/SRzKu.gif"alt="Example gif"></div>
-<br>
-<br>
 
 ## Live Demo
+
+![A photo explaining how to deploy our vue project on github pages](https://github.com/AOCCorg/Intro-It/blob/main/Examples/2.png?raw=true)
 
 You can see a live demo of the project [here](https://coder2mo.github.io/Intro-It/)
 <br>
