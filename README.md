@@ -8,7 +8,7 @@ professional intro writer effect, creating a memorable first impression.
 
 ## Live Demo
 
-You can see a live demo of the project [here](demo-link).
+You can see a live demo of the project [here](https://coder2mo.github.io/Intro-It/)
 <br>
 <br>
 
@@ -48,6 +48,19 @@ npm run introit
 ```
 
 This will build the project, lint the code, and start the development server.
+<br>
+<br>
+
+## Deploying
+
+To deploy your Vue app with GitHub Pages, simply run this command below:
+
+
+```bash
+npm run deploy
+```
+
+This deploys your Vue app to the public and gives you a unique link. Open up that project on GitHub and click on <strong>Settings</strong>.
 <br>
 <br>
 
