@@ -63,6 +63,12 @@ npm run deploy
 This deploys your Vue app to the public and gives you a unique link. Open up that project on GitHub and click on <strong>Settings</strong>.
 <br>
 <br>
+![A photo explaining how to deploy our vue project on github pages](https://github.com/Coder2Mo/Intro-It/blob/main/src/assets/1.png?raw=true)
+<br>
+<br>
+Your Vue app is <strong>live</strong> Now !
+<br>
+<br>
 
 ## Configuration
 
