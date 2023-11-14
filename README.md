@@ -10,7 +10,7 @@ professional intro writer effect, creating a memorable first impression.
 
 ## Live Demo
 
-![A photo explaining how to deploy our vue project on github pages](https://github.com/AOCCorg/Intro-It/blob/main/Examples/2.png?raw=true)
+![A photo explaining how to deploy our vue project on github pages](https://github.com/Coder2Mo/Intro-It/blob/main/Examples/2.png)
 
 You can see a live demo of the project [here](https://coder2mo.github.io/Intro-It/)
 <br>
